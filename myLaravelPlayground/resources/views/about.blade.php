@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('title', 'About - L322 Tribute Page')
-
-@section('content')
+<x-layout>
 <div class="container mt-4">
     <h1 class="text-center mb-4">About This Site</h1>
     
@@ -35,4 +31,4 @@
         </div>
     </div>
 </div>
-@endsection
+</x-layout>

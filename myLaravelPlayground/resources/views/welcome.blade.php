@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('title', 'L322, the best Range Rover so far?')
-
-@section('content')
+<x-layout>
 <div class="container mt-4">
     <h1 class="text-center">L322, the best Range Rover so far?</h1>
     <h2 class="text-center">2002 - 2012</h2>
@@ -77,4 +73,4 @@
         <a href="https://en.wikipedia.org/wiki/Range_Rover_(L322)" target="_blank">follow this link to Wikipedia</a>.
     </p>
 </div>
-@endsection
+</x-layout>
