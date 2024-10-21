@@ -13,6 +13,7 @@
         }
         main {
             flex: 1;
+            padding-bottom: 1rem; 
         }
         .navbar-custom {
             background-color: #333;
@@ -37,6 +38,7 @@
             color: #fff;
             padding: 20px 0;
             border-top: 3px solid #ff6600;
+            margin-top: 3rem; 
         }
         .footer-custom p {
             font-size: 1.2rem;
