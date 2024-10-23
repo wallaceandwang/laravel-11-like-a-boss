@@ -23,6 +23,37 @@
                 justify-content: space-around;
             }
         }
+        
+        .navbar-custom {
+        background-color: #333;
+        border-bottom: 3px solid #ff6600;
+        }
+        .navbar-custom .navbar-brand {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .navbar-custom .nav-link {
+            color: #fff;
+            margin-left: 15px;
+            transition: color 0.3s;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #ff6600;
+        }
+
+        .footer-custom {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        border-top: 3px solid #ff6600;
+        }
+        .footer-custom p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        
     </style>
 </head>
 <body>
